@@ -1,0 +1,109 @@
+
+
+.studentform {
+    width: 90%;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.studentform h2 {
+    width: 100%;
+    margin: 0 0 10px 0;
+    color: #1f2937;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.input1,
+.input2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+.formgroup {
+    width: 100%;
+}
+
+
+.formgroup input {
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 9px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.formgroup input:focus {
+    border: 2px solid #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.15);
+}
+
+.studentform button {
+    margin-top: 5px;
+    padding: 12px 30px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 5px;
+    padding: 12px 30px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.studentform button:hover {
+    background: #1d4ed8;
+}
+
+@media (max-width: 900px) {
+    .input1,
+    .input2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.student-title {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.student-logo {
+    font-size: 34px;
+    color: #000;
+    flex-shrink: 0;
+}
+
+.student-title h2 {
+    margin: 0;
+    color: #1f2937;
+    font-size: 30px;
+}
